@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Playlist</h1>
+
+    <div class="grid-container">
+        <div class="list">
+            <h3>List of Musicians</h3>
+                <input id="list"  type="text" name="listbox"/>
+        </div>
+        <div class="grid-item">
+            <form method="POST" action="submit-form">
+            
+            <input type="text" name="addtxt" class="addtxtbox" placeholder="Add New Musician"/>
+            <input id="btn" onclick="app.get()" type="submit" value="Add"/>
+            <br>
+            <br>
+            <input type="text" name="edittxt" placeholder="Make Changes"/>
+            <input type="text" name="edittxt" placeholder="Mucian's ID"/><input type="submit" value="Edit"/>
+            <br>
+            <br>
+            <input type="text" name="deletetxt" placeholder="Delete Musician"/>
+            <input type="text" name="edittxt" placeholder="Mucian's ID"/><input type="submit" value="Delete"/>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <input type="submit" value="SORT"/>
+          </form>
+         </div>
+         
+         
+      </div>
+</body>
+</html>
